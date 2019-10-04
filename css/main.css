@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: Verdana, sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    padding: 20px;
+    margin: 0 0 20px 0;
+    width: 100%;
+    background-color: rgb(191, 200, 209);
+    color: white;
+    text-align: center;
+}
+
+button{
+    margin: 10px 0 10px 10px;
+    text-align: center;
+    border: 0;
+    color: white;
+    padding: 5px 15px;
+    background-color: rgb(116, 199, 252); 
+}
+
+#addItem{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+#itemList { 
+    margin: auto;
+    padding-left: 0;
+    width: 50%;
+}
+
+#itemList > .item{ 
+    width: 100%;
+    border: 2px solid lightgray;
+    padding: 5px;
+    color: gray;
+    font-weight: 800;
+}
+
+#itemList > .item > div{
+    margin: 10px 0 0 10px;
+
+}
+
+#itemList > .item > button{
+    margin: 10px 0 10px 10px;
+    text-align: center;
+    border: 0;
+    color: white;
+    padding: 5px 15px
+}
+
+#itemList > .item > button:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+
+.check{
+    background-color: rgb(97, 226, 97);
+}
+
+.delete{
+    background-color: #D9534F;
+}
